@@ -15,8 +15,8 @@ public class Method2 {
         student.name = name;
         student.age = age;
         student.grade = grade;
-        return student; //x001 Student 타입을 반환 ~
-    } // Method1에서 initStudent 대신 사용 
+        return student; //x001
+    } // 위 참조값을 메서드 외부로 반환할 수 있게 됨 ~
 
     static void printStudent(Student student) {
         System.out.println("이름: " + student.name + " 나이: " + student.age + " 성적: " + student.grade);
