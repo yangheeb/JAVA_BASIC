@@ -5,8 +5,7 @@ public class Album extends Item{
     public String artist;
 
     public Album(String name, int price, String artist){
-        this.name = name;
-        this.price = price;
+        super(name, price);
         this.artist = artist;
     }
 
